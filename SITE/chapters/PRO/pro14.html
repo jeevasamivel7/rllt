@@ -4,7 +4,7 @@
 <head>
   <style>
     .audio{
-   width: 100%;
+   width: 50%;
        }
    </style>
 </head>
@@ -52,17 +52,54 @@
 <p> <a href="https://biblehub.com/proverbs/14-35.htm" target="_blank">35</a>The king's favor is toward a wise servant,But his wrath is against him who causes shame.</p>  
 
 <footer>
-     <form>
-        <input type="button" value="back" oneclick="histroy.back()">
-        <input type="button" value="next" oneclick="histroy.forward()">
-            </form>
-       <audio controls class="audio">
-          <source scr="pro\pro14.mp3" type="audio/mpeg">
-          <source scr="pro\pro14.ogg" type="audio/ogg">
-        </audio>
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  a {
+    text-decoration: none;
+    display: ruby;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .round {
+    border-radius: 60%;
+    
+   
+  }
+  </style>
+  </head>
+  <body>
+    <audio controls class="audio">
+      <source scr="pro\pro14.mp3" type="audio/mpeg">
+      <source scr="pro\pro14.ogg" type="audio/ogg">
+    </audio>
 
-         
-       <h3><a href="PSA\psa23.html"><a href="next.png"></a> </h3>
+ <br>
+ <br>
+ <br>
+ <a href="../../Home.html" class="previous round">&#8249;</a>
+ <a href="PSA\psa23.html" class="next round">&#8250;</a>
+
+</body>
+</html> 
+     
 </footer>
 </body>
 </html>
