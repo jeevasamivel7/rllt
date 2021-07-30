@@ -4,9 +4,12 @@
 <head>
   <style>
     .audio{
-   width: 100%;
+   width: 50%;
+   object-position: center;
+  object-fit: contain;
        }
    </style>
+
 </head>
 <body>
 
@@ -33,15 +36,57 @@ A Prayer of David.</h4>
 <p> <a href="https://biblehub.com/psalms/17-15.htm">15</a>As for me, I will see Your face in righteousness;I shall be satisfied when I awake in Your likeness.</p>
 
 <footer>
-    <form>
-      <input type="button" value="back" onclick="history.back()">
-     </form> 
-      <audio controls class="audio">
-          <source src="psa\06 19Psa017.mp3" type="audio/mpeg">
-          <source src="psa\06 19Psa017.ogg" type="audio/ogg">
-            </audio>
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  a {
+    text-decoration: none;
+    display: ruby;
+    padding: 8px 16px;
+  }
   
-            <h3><a href="psa 5.html">NEXT</a></h3>
-            </footer>
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .round {
+    border-radius: 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  </style>
+  </head>
+  <body>
+
+  <a href="#" class="previous round">&#8249;</a>
+  <a href="#" class="next round">&#8250;</a>
+
+</body>
+</html> 
+
+  <audio controls class="audio">
+    <source src="psa\06 19Psa017.mp3" type="audio/mpeg">
+    <source src="psa\06 19Psa017.ogg" type="audio/ogg">
+  
+  </audio>
+
+  
+
+      
+  
+ </footer>
 </body>
 </html>
