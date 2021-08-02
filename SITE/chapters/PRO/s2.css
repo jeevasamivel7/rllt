@@ -1,68 +1,27 @@
-body, h2, p {
-  margin: 0;
-  padding: 0;
+link {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
 }
 
-body {
-  background-color: rgb(233, 227, 227);
-  color: #333;
-  font-family: Helvetica, sans-serif;
-}
-
-#para{
+link:hover {
+  background-color: #ddd;
   color: black;
-width: 180px;
-height: 300px;
-overflow: scroll;
-border: 0px solid transparent;
-font-size: 21px;
-background-image:url(scroll-clipart-scroll-egyptian.jpg);
-background-position: center;
 }
 
+.previous {
+  background-color: #f1f1f1;
+  color: black;
 
-
-
-
-
-#book {
-  background: url("book (1).png") no-repeat;
-  position: absolute;
-  width: 930px;
-  height: 650px;
-  left: 20%;
-  top: 20%;
-  margin-left: -200px;
-  margin-top: -50px;
 }
 
-#pages section {
-  background: url("paper.png") no-repeat;
-  display: block;
-  width: 450px;
-  height: 630px;
-  position: absolute;
-  left: 465px;
-  top: 9px;
-  overflow: hidden;
+.next {
+  background-color: #04AA6D;
+  color: white;
 }
-  #pages section>div {
-    display: block;
-    width: 450px;
-    height: 450px;
-    font-size: 12px;
-  }
-  #pages section p,
-  #pages section h2 {
-    padding: 3px 35px;
-    line-height: 1.4em;
-    text-align: justify;
-  }
-  #pages section h2{
-    margin: 25px 0 20px;
-  }
 
-#pageflip-canvas {
-  position: absolute;
-  z-index: 100;
+.round {
+  border-radius: 60%;
+  
+ 
 }

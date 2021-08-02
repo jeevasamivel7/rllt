@@ -4,7 +4,7 @@
 <head>
   <style>
     .audio{
-   width: 100%;
+   width: 60%;
        }
    </style>
 </head>
@@ -63,16 +63,54 @@
 
 
 <footer>
-     <form>
-        <input type="button" value="<" oneclick="histroy.back()">
-      </form>
-       <audio controls class="audio">
-          <source scr="mar\mrk8.mp3" type="audio/mpeg">
-          <source scr="mar\mrk8.ogg" type="audio/ogg">
-        </audio>
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #04AA6D;
+    color: black;
+  }
+  
+  .next {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .round {
+    border-radius: 60%;
+    
+   
+  }
+  </style>
+  </head>
+  <body>
+    <audio controls class="audio">
+      <source scr="mar\mrk8.mp3" type="audio/mpeg">
+      <source scr="mar\mrk8.ogg" type="audio/ogg">
+    </audio>
 
-         
-       <h3><a href="mrk9.html">NEXT</a></h3>
+ <br>
+ <br>
+ <a href="mrk7.html" class="previous round">&#8249;</a>
+ <a href="../../../../Home.html" class="next round">&#8250;</a>
+
+</body>
+</html> 
+
+      
 </footer>
 </body>
 </html>
