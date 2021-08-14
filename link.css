@@ -1,9 +1,7 @@
-element.style {
 
-}
 
 canvas Attributes Style {
-    aspect-ratio: auto 1522 / 5000;
+    aspect-ratio: auto;
 }
 
 #NOTEPAD {
@@ -258,8 +256,9 @@ input[type="color" i] {
     padding: 1px 2px;
 }
 
-input {
-    -webkit-writing-mode: horizontal-tb !important;
+input
+ {
+    
     text-rendering: auto;
     color: -internal-light-dark(black, white);
     letter-spacing: normal;
