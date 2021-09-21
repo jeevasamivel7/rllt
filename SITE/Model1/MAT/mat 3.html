@@ -1,51 +1,282 @@
+
 <DOCTYPE html>
-<head>
-<title>Matthew 3 </title>
-</head>
-<style>
-  .audio{
- width: 60%;
-     }
- </style>
-<body>
-<h2>Matthew 3 </h2>
-
-<h4> John the Baptist Prepares the Way </h4>
-
-<p> <a href="https://biblehub.com/matthew/3-1.htm">1</a>In those days John the Baptist came preaching in the wilderness of Judea,
- <a href="https://biblehub.com/matthew/3-2.htm">2</a>and saying, "Repent, for the kingdom of heaven is at hand!""
- <a href="https://biblehub.com/matthew/3-3.htm">3</a>3For this is he who was spoken of by the prophet Isaiah, saying:"The voice of one crying in the wilderness:"Prepare the way of the Lord;Make His paths straight.""</p>
-<p> <a href="https://biblehub.com/matthew/3-4.htm">4</a>Now John himself was clothed in camel's hair, with a leather belt around his waist; and his food was locusts and wild honey.
- <a href="https://biblehub.com/matthew/3-5.htm">5</a>Then Jerusalem, all Judea, and all the region around the Jordan went out to him
- <a href="https://biblehub.com/matthew/3-6.htm">6</a>and were baptized by him in the Jordan, confessing their sins.</p>
-<p> <a href="https://biblehub.com/matthew/3-7.htm">7</a>But when he saw many of the Pharisees and Sadducees coming to his baptism, he said to them, "Brood of vipers! Who warned you to flee from the wrath to come?
- <a href="https://biblehub.com/matthew/3-8.htm">8</a>Therefore bear fruits worthy of repentance, 
- <a href="https://biblehub.com/matthew/3-9.htm">9</a>and do not think to say to yourselves, "We have Abraham as our father." For I say to you that God is able to raise up children to Abraham from these stones. 
- <a href="https://biblehub.com/matthew/3-10.htm">10</a>And even now the ax is laid to the root of the trees. Therefore every tree which does not bear good fruit is cut down and thrown into the fire. 
- <a href="https://biblehub.com/matthew/3-11.htm">11</a>I indeed baptize you with water unto repentance, but He who is coming after me is mightier than I, whose sandals I am not worthy to carry. He will baptize you with the Holy Spirit and fire.
- <a href="https://biblehub.com/matthew/3-12.htm">12</a>His winnowing fan is in His hand, and He will thoroughly clean out His threshing floor, and gather His wheat into the barn; but He will burn up the chaff with unquenchable fire."</p>
-<h4>John Baptizes jesus</h4>
-<p> <a href="https://biblehub.com/matthew/3-13.htm">13</a>Then Jesus came from Galilee to John at the Jordan to be baptized by him. 
- <a href="https://biblehub.com/matthew/3-14.htm">14</a>And John tried to prevent Him, saying, "I need to be baptized by You, and are You coming to me?"</p>
-<p> <a href="https://biblehub.com/matthew/3-15.htm">15</a>But Jesus answered and said to him, <a style="COLOR: #770000;">"Permit it to be so now, for thus it is fitting for us to fulfill all righteousness."</a> Then he allowed Him.</p>
-<p> <a href="https://biblehub.com/matthew/3-16.htm">16</a>When He had been baptized, Jesus came up immediately from the water; and behold, the heavens were opened to Him, and He saw the Spirit of God descending like a dove and alighting upon Him. 
- <a href="https://biblehub.com/matthew/3-17.htm">17</a>And suddenly a voice came from heaven, saying, "This is My beloved Son, in whom I am well pleased."</p>
-
-
-<footer>
-
- 
-    <audio controls class="audio">
-      <source src="../../Audios/mat/MAT3.mp3" type="audio/mpeg">
-      <source src="../../Audios/mat/MAT3.ogg" type="audio/ogg">
+  <head>
+  <title>MATTHEW </title>
+  </head>
+  <style>
+    .audio{
+   width: 60%;
+       }
+   </style>
+  <body>
+  
+  <!DOCTYPE html>
+  <html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  
+  .header {
+    padding: 6px 1px;
+    background: rgb(5, 215, 252);
+    color: #f1f1f1;
+  }
+  .btn {
+      margin-top: 1%;
+      margin-left: 20px;
+      background-color: transparent;
+      float: left;
+      
+      
+  }
+  
+  .header.btn1 {
+      margin-top: 10%;
+      margin-right: 3%;
+      background-color: transparent;
+      float: right;
+  }
+  
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 102px;
+  }
+  </style>
+  <style>
+      body {
+        font-family: "Lato", sans-serif;
+      }
+      .dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+      .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      
+      #main {
+        transition: margin-left .5s;
+        padding: 16px;
+      }
+      
+      @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+      }
+      </style>
+  
+  <style>
+      .footer {
+         position: fixed;
+         left: 0;
+         bottom: 0;
+         height: 0.5cm;
+         width: 100%;
+         background-color: white;
+         color: white;
+         text-align: center;
+      }
+      </style>
+  
+  <style>
+      div.scrollmenu {
+        background-color:rgb(5, 215, 252);
+        overflow: auto;
+        white-space: nowrap;
+      
+      }
+      
+      div.scrollmenu a {
+        display:inline-block;
+        color: white;
+        text-align: center;
+        padding: 8px;
+        text-decoration: none;
+      
+      }
+      
+      div.scrollmenu a:hover {
+        background-color: #777;
+      }
+      </style>
+  <script>
+      var fontSize = 1;
+  function zoomIn() {
+    fontSize += 0.1;
+    document.body.style.fontSize = fontSize + "em";
+  }
+  function zoomOut() {
+    fontSize -= 0.1;
+    document.body.style.fontSize = fontSize + "em";
+  }
+  </script>
+  
+  
+  </head>
+  <body>
+  
+      <audio id="myAudio">
+          <source src="../../Audios/mat/MAT3.ogg" type="audio/ogg">
+          <source src="../../Audios/mat/MAT3.mp3" type="audio/mpeg">
         </audio>
- <br>
- <a href="mat 2.html"><img src="../../../prev.gif" alt="PREVIOUS" style="width:44px;height:42px;"></a>
-  <a href="../../Home.html"><img src="../../../next.gif" alt="NEXT" style="width:44px;height:42px;"></a>
+  
+  
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#">Bread</a>
+        <a href="#">Tools</a>
+        <a href="#">Keys</a>
+        <a href="#">Resources</a>
+        </div>
+  <div class="header" id="myHeader">
+  
+      <div class="scrollmenu">
+        <div id="main">
+          <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776;REAL LIFE LEADERSHIP TRAINING</span>
+      </div>
+      <a class="btn" href="../../Model1/MAT/mat 2.html"><img src="../../chapters/PRO/prv.png" alt="next" style="width:30px;height:25px;"></a>
+      <a class="btn" onclick="togglePlay()" src="#" alt="pause" style="width:30px;height:25px;"></a>
+      <a class="btn" href="../../Model1/MAT/mat 4.html"><img src="../../chapters/PRO/next.png" alt="next" style="width:30px;height:25px;"></a>
+      <a class="btn" onclick="zoomOut()()"><img src="../../chapters/PRO/dec.png" alt="pause" style="width:30px;height:25px;"></a>
+      <a class="btn" onclick="zoomIn()"><img src="../../chapters/PRO/inc.png" alt="pause" style="width:30px;height:25px;"></a>
+      </div>
+  
+  </div>
+  
+  <div class="content">
+    <h2>Matthew 3 </h2>
 
- 
-   
-          </footer>
-          
-</body>
-</html>
+    <h4> John the Baptist Prepares the Way </h4>
+    
+    <p> <a href="https://biblehub.com/matthew/3-1.htm">1</a>In those days John the Baptist came preaching in the wilderness of Judea,
+     <a href="https://biblehub.com/matthew/3-2.htm">2</a>and saying, "Repent, for the kingdom of heaven is at hand!""
+     <a href="https://biblehub.com/matthew/3-3.htm">3</a>3For this is he who was spoken of by the prophet Isaiah, saying:"The voice of one crying in the wilderness:"Prepare the way of the Lord;Make His paths straight.""</p>
+    <p> <a href="https://biblehub.com/matthew/3-4.htm">4</a>Now John himself was clothed in camel's hair, with a leather belt around his waist; and his food was locusts and wild honey.
+     <a href="https://biblehub.com/matthew/3-5.htm">5</a>Then Jerusalem, all Judea, and all the region around the Jordan went out to him
+     <a href="https://biblehub.com/matthew/3-6.htm">6</a>and were baptized by him in the Jordan, confessing their sins.</p>
+    <p> <a href="https://biblehub.com/matthew/3-7.htm">7</a>But when he saw many of the Pharisees and Sadducees coming to his baptism, he said to them, "Brood of vipers! Who warned you to flee from the wrath to come?
+     <a href="https://biblehub.com/matthew/3-8.htm">8</a>Therefore bear fruits worthy of repentance, 
+     <a href="https://biblehub.com/matthew/3-9.htm">9</a>and do not think to say to yourselves, "We have Abraham as our father." For I say to you that God is able to raise up children to Abraham from these stones. 
+     <a href="https://biblehub.com/matthew/3-10.htm">10</a>And even now the ax is laid to the root of the trees. Therefore every tree which does not bear good fruit is cut down and thrown into the fire. 
+     <a href="https://biblehub.com/matthew/3-11.htm">11</a>I indeed baptize you with water unto repentance, but He who is coming after me is mightier than I, whose sandals I am not worthy to carry. He will baptize you with the Holy Spirit and fire.
+     <a href="https://biblehub.com/matthew/3-12.htm">12</a>His winnowing fan is in His hand, and He will thoroughly clean out His threshing floor, and gather His wheat into the barn; but He will burn up the chaff with unquenchable fire."</p>
+    <h4>John Baptizes jesus</h4>
+    <p> <a href="https://biblehub.com/matthew/3-13.htm">13</a>Then Jesus came from Galilee to John at the Jordan to be baptized by him. 
+     <a href="https://biblehub.com/matthew/3-14.htm">14</a>And John tried to prevent Him, saying, "I need to be baptized by You, and are You coming to me?"</p>
+    <p> <a href="https://biblehub.com/matthew/3-15.htm">15</a>But Jesus answered and said to him, <a style="COLOR: #770000;">"Permit it to be so now, for thus it is fitting for us to fulfill all righteousness."</a> Then he allowed Him.</p>
+    <p> <a href="https://biblehub.com/matthew/3-16.htm">16</a>When He had been baptized, Jesus came up immediately from the water; and behold, the heavens were opened to Him, and He saw the Spirit of God descending like a dove and alighting upon Him. 
+     <a href="https://biblehub.com/matthew/3-17.htm">17</a>And suddenly a voice came from heaven, saying, "This is My beloved Son, in whom I am well pleased."</p>
+    
+    
+    
+  </div>
+  
+  <script>
+  window.onscroll = function() {myFunction()};
+  
+  var header = document.getElementById("myHeader");
+  var sticky = header.offsetTop;
+  
+  function myFunction() {
+    if (window.pageYOffset > sticky) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
+  }
+  
+  function togglePlay() {
+    var audio = document.getElementsByTagName("audio")[0];
+     
+    if (audio) {
+      if (audio.paused) {
+          audio.play();
+         document.getElementById("btn").src = "next.png";
+      } else {
+          audio.pause();
+          document.getElementById("btn").src ="next.png";
+      }
+    }
+  }
+  
+  
+  </script>
+  
+  
+    
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "150px";
+      document.getElementById("main").style.marginLeft = "150px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+    }
+    </script>
+  
+  <footer>
+      <div class="footer">
+        <a href="../../Home.html"><span class="dot"></span></a>
+        <a href="PSA\psa1.html"><span class="dot"></span></a>
+        <a href="../../Model1/MAT/mat 1.html"><span class="dot"></span></a>
+        <a href="../../Model1/MAT/mat 2.html"><span class="dot"></span></a>
+        <a href="../../Model1/MAT/mat 3.html"><span class="dot"></span></a>
+        <a href="../../Model1/MAT/mat 4.html"><span class="dot"></span></a>
+        <a href="../../Home.html"><span class="dot"></span></a>
+  </div>
+  </footer>
+  
+  
+  
+  </body>
+  </html>
+  

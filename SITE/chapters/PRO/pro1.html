@@ -1,120 +1,170 @@
-
-
 <!DOCTYPE html>
 <html>
-    <head>
-       
-        <style>
-            .audio{
-           width: 60%;
-               }
-           </style>
-    </head>
+<head>
+<title>PROVERBS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="model.css">
+<script src="aud.js"></script>
+<style>
+  .player {
+    width: 20px;
+    height: 12px;
+    background: url('ps.svg') no-repeat center center;
+ }
+</style>
+<script>
     
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+
+</script>
+</head>
+
 <body>
-        
-            <h2>Proverbs 1</h2>
+    <audio id="myAudio">
+        <source src="../../Audios/pro/12 20Pro001.mp3" type="audio/mpeg">
+        <source src="../../Audios/pro/12 20Pro001.ogg" type="audio/ogg">
+    </audio>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div>
+<div class="header" id="myHeader">
+
+    <div class="scrollmenu">
+      <div id="main">
+          <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776;REAL LIFE LEADERSHIP TRAINING</span>
+      </div>
+      <a class="btn" href="../../Home.html"><img src="prv.png" alt="prev" style="width:30px;height:25px;"></a>
+      <a class="btn" onclick="togglePlay()" src="../prev.gif" alt="pause" style="width:30px;height:25px;"></a>
+      <a class="btn" href="PSA\psa1.html"><img src="next.png" alt="next" style="width:30px;height:25px;"></a>
+      <a class="btn" onclick="zoomOut()()"><img src="dec.png" alt="dec" style="width:30px;height:25px;"></a>
+      <a class="btn" onclick="zoomIn()"><img src="inc.png" alt="inc" style="width:30px;height:25px;"></a>
+    </div>
+
+</div>
+
+
+<div class="content">
+    
+         
+    <h2>Proverbs 1</h2>
 
           
-<h4  id = "para1" onscroll = "fun()"> The Beginning of Knowledge</h4>
+    <h4> The Beginning of Knowledge</h4>
+    
+    <p ><a href="https://biblehub.com/proverbs/1-1.htm">1</a>The proverbs of Solomon the son of David, king of Israel:</p>
+    
+    <p><a href="https://biblehub.com/proverbs/1-2.htm">2</a>To know wisdom and instruction,
+    To perceive the words of understanding,</p>
+    
+    <p><a href="https://biblehub.com/proverbs/1-3.htm">3</a>To receive the instruction of wisdom,
+    Justice, judgment, and equity;</p>
+    
+    <p><a href="https://biblehub.com/proverbs/1-4.htm">4</a>To give prudence to the simple,
+    To the young man knowledge and discretion—</p>
+    
+    <p><a href="https://biblehub.com/proverbs/1-5.htm">5</a>A wise man will hear and increase learning,
+    And a man of understanding will attain wise counsel,</p>
+    
+    <p><a href="https://biblehub.com/proverbs/1-6.htm">6</a>To understand a proverb and an enigma,
+    The words of the wise and their riddles.</p>
+    
+    <p><a href="https://biblehub.com/proverbs/1-7.htm">7</a>The fear of the Lord is the beginning of knowledge,
+    But fools despise wisdom and instruction.</p>
+    
+    <h4>Shun Evil Counsel</h4>
+    <p><a href="https://biblehub.com/proverbs/1-8.htm">8</a>My son, hear the instruction of your father,
+    And do not forsake the law of your mother;</p>
+    
+    <p><a href="https://biblehub.com/proverbs/1-9.htm">9</a>For they will be a graceful ornament on your head,
+    And chains about your neck.</p>
+    
+    <p><a href="https://biblehub.com/proverbs/1-10.htm">10</a>My son, if sinners entice you,
+    Do not consent.</p>
+    <p><a href="https://biblehub.com/proverbs/1-11.htm">11</a>If they say, “Come with us,
+    Let us lie in wait to shed blood;
+    Let us lurk secretly for the innocent without cause;</p>
+    <p><a href="https://biblehub.com/proverbs/1-12.htm">12</a>Let us swallow them alive like Sheol,
+    And whole, like those who go down to the Pit;</p>
+    <p><a href="https://biblehub.com/proverbs/1-13.htm">13</a>We shall find all kinds of precious possessions,
+    We shall fill our houses with spoil;</p>
+    <p><a href="https://biblehub.com/proverbs/1-14.htm">14</a>Cast in your lot among us,
+    Let us all have one purse”—</p>
+    <p><a href="https://biblehub.com/proverbs/1-15.htm">15</a>My son, do not walk in the way with them,
+    Keep your foot from their path;</p>
+    <p><a href="https://biblehub.com/proverbs/1-16.htm">16</a>For their feet run to evil,
+    And they make haste to shed blood.</p>
+    <p><a href="https://biblehub.com/proverbs/1-17.htm">17</a>Surely, in vain the net is spread
+    In the sight of any bird;</p>
+    <p><a href="https://biblehub.com/proverbs/1-18.htm">18</a>But they lie in wait for their own blood,
+    They lurk secretly for their own lives.</p>
+    <p><a href="https://biblehub.com/proverbs/1-19.htm">19</a>So are the ways of everyone who is greedy for gain;
+    It takes away the life of its owners.</p>
+    
+    <h4>The Call of Wisdom</h4>
+    <p><a href="https://biblehub.com/proverbs/1-20.htm">20</a>Wisdom calls aloud outside;
+    She raises her voice in the open squares.</p>
+    <p><a href="https://biblehub.com/proverbs/1-21.htm">21</a>She cries out in the chief concourses,
+    At the openings of the gates in the city
+    She speaks her words:</p>
+    <p><a href="https://biblehub.com/proverbs/1-22.htm">22</a>“How long, you simple ones, will you love simplicity?
+    For scorners delight in their scorning,
+    And fools hate knowledge.</p>
+    <p><a href="https://biblehub.com/proverbs/1-23.htm">23</a>Turn at my rebuke;
+    Surely I will pour out my spirit on you;
+    I will make my words known to you.</p>
+    <p><a href="https://biblehub.com/proverbs/1-24.htm">24</a>Because I have called and you refused,
+    I have stretched out my hand and no one regarded,</p>
+    <p><a href="https://biblehub.com/proverbs/1-25.htm">25</a>Because you disdained all my counsel,
+    And would have none of my rebuke,</p>
+    <p><a href="https://biblehub.com/proverbs/1-26.htm">26</a>I also will laugh at your calamity;
+    I will mock when your terror comes,</p>
+    <p><a href="https://biblehub.com/proverbs/1-27.htm">27</a>When your terror comes like a storm,
+    And your destruction comes like a whirlwind,
+    When distress and anguish come upon you.</p>
+    
+    <p><a href="https://biblehub.com/proverbs/1-28.htm">28</a>“Then they will call on me, but I will not answer;
+    They will seek me diligently, but they will not find me.</p>
+    <p><a href="https://biblehub.com/proverbs/1-29.htm">29</a>Because they hated knowledge
+    And did not choose the fear of the Lord,</p>
+    <p><a href="https://biblehub.com/proverbs/1-30.htm">31</a>They would have none of my counsel
+    And despised my every rebuke.</p>
+    <p><a href="https://biblehub.com/proverbs/1-31.htm">31</a>Therefore they shall eat the fruit of their own way,
+    And be filled to the full with their own fancies.</p>
+    <p><a href="https://biblehub.com/proverbs/1-32.htm">32</a>For the turning away of the simple will slay them,
+    And the complacency of fools will destroy them;</p>
+    <p><a href="https://biblehub.com/proverbs/1-33.htm">33</a>But whoever listens to me will dwell safely,
+    And will be secure, without fear of evil.”</p>
+</div>
 
-<p ><a href="https://biblehub.com/proverbs/1-1.htm">1</a>The proverbs of Solomon the son of David, king of Israel:</p>
 
-<p><a href="https://biblehub.com/proverbs/1-2.htm">2</a>To know wisdom and instruction,
-To perceive the words of understanding,</p>
-
-<p><a href="https://biblehub.com/proverbs/1-3.htm">3</a>To receive the instruction of wisdom,
-Justice, judgment, and equity;</p>
-
-<p><a href="https://biblehub.com/proverbs/1-4.htm">4</a>To give prudence to the simple,
-To the young man knowledge and discretion—</p>
-
-<p><a href="https://biblehub.com/proverbs/1-5.htm">5</a>A wise man will hear and increase learning,
-And a man of understanding will attain wise counsel,</p>
-
-<p><a href="https://biblehub.com/proverbs/1-6.htm">6</a>To understand a proverb and an enigma,
-The words of the wise and their riddles.</p>
-
-<p><a href="https://biblehub.com/proverbs/1-7.htm">7</a>The fear of the Lord is the beginning of knowledge,
-But fools despise wisdom and instruction.</p>
-
-<h4>Shun Evil Counsel</h4>
-<p><a href="https://biblehub.com/proverbs/1-8.htm">8</a>My son, hear the instruction of your father,
-And do not forsake the law of your mother;</p>
-
-<p><a href="https://biblehub.com/proverbs/1-9.htm">9</a>For they will be a graceful ornament on your head,
-And chains about your neck.</p>
-
-<p><a href="https://biblehub.com/proverbs/1-10.htm">10</a>My son, if sinners entice you,
-Do not consent.</p>
-<p><a href="https://biblehub.com/proverbs/1-11.htm">11</a>If they say, “Come with us,
-Let us lie in wait to shed blood;
-Let us lurk secretly for the innocent without cause;</p>
-<p><a href="https://biblehub.com/proverbs/1-12.htm">12</a>Let us swallow them alive like Sheol,
-And whole, like those who go down to the Pit;</p>
-<p><a href="https://biblehub.com/proverbs/1-13.htm">13</a>We shall find all kinds of precious possessions,
-We shall fill our houses with spoil;</p>
-<p><a href="https://biblehub.com/proverbs/1-14.htm">14</a>Cast in your lot among us,
-Let us all have one purse”—</p>
-<p><a href="https://biblehub.com/proverbs/1-15.htm">15</a>My son, do not walk in the way with them,
-Keep your foot from their path;</p>
-<p><a href="https://biblehub.com/proverbs/1-16.htm">16</a>For their feet run to evil,
-And they make haste to shed blood.</p>
-<p><a href="https://biblehub.com/proverbs/1-17.htm">17</a>Surely, in vain the net is spread
-In the sight of any bird;</p>
-<p><a href="https://biblehub.com/proverbs/1-18.htm">18</a>But they lie in wait for their own blood,
-They lurk secretly for their own lives.</p>
-<p><a href="https://biblehub.com/proverbs/1-19.htm">19</a>So are the ways of everyone who is greedy for gain;
-It takes away the life of its owners.</p>
-
-<h4>The Call of Wisdom</h4>
-<p><a href="https://biblehub.com/proverbs/1-20.htm">20</a>Wisdom calls aloud outside;
-She raises her voice in the open squares.</p>
-<p><a href="https://biblehub.com/proverbs/1-21.htm">21</a>She cries out in the chief concourses,
-At the openings of the gates in the city
-She speaks her words:</p>
-<p><a href="https://biblehub.com/proverbs/1-22.htm">22</a>“How long, you simple ones, will you love simplicity?
-For scorners delight in their scorning,
-And fools hate knowledge.</p>
-<p><a href="https://biblehub.com/proverbs/1-23.htm">23</a>Turn at my rebuke;
-Surely I will pour out my spirit on you;
-I will make my words known to you.</p>
-<p><a href="https://biblehub.com/proverbs/1-24.htm">24</a>Because I have called and you refused,
-I have stretched out my hand and no one regarded,</p>
-<p><a href="https://biblehub.com/proverbs/1-25.htm">25</a>Because you disdained all my counsel,
-And would have none of my rebuke,</p>
-<p><a href="https://biblehub.com/proverbs/1-26.htm">26</a>I also will laugh at your calamity;
-I will mock when your terror comes,</p>
-<p><a href="https://biblehub.com/proverbs/1-27.htm">27</a>When your terror comes like a storm,
-And your destruction comes like a whirlwind,
-When distress and anguish come upon you.</p>
-
-<p><a href="https://biblehub.com/proverbs/1-28.htm">28</a>“Then they will call on me, but I will not answer;
-They will seek me diligently, but they will not find me.</p>
-<p><a href="https://biblehub.com/proverbs/1-29.htm">29</a>Because they hated knowledge
-And did not choose the fear of the Lord,</p>
-<p><a href="https://biblehub.com/proverbs/1-30.htm">31</a>They would have none of my counsel
-And despised my every rebuke.</p>
-<p><a href="https://biblehub.com/proverbs/1-31.htm">31</a>Therefore they shall eat the fruit of their own way,
-And be filled to the full with their own fancies.</p>
-<p><a href="https://biblehub.com/proverbs/1-32.htm">32</a>For the turning away of the simple will slay them,
-And the complacency of fools will destroy them;</p>
-<p><a href="https://biblehub.com/proverbs/1-33.htm">33</a>But whoever listens to me will dwell safely,
-And will be secure, without fear of evil.”</p>
 
 <footer>
-  
-        <audio controls class="audio">
-            <source src="../../Audios/pro/12 20Pro001.mp3" type="audio/mpeg">
-            <source src="../../Audios/pro/12 20Pro001.ogg" type="audio/ogg">
-              </audio>
-   <br>
-<a href="../../Home.html"><img src="../prev.gif" alt="PREVIOUS" style="width:44px;height:42px;"></a>
- <a href="PSA\psa1.html"><img src="../next.gif" alt="NEXT" style="width:44px;height:42px;"></a>
-
-    
+  <div class="footer">
+  <a href="../../Home.html"><span class="dot"></span></a>
+  <a href="PSA\psa1.html"><span class="dot"></span></a>
+  <a href="../../Model1/MAT/mat 1.html"><span class="dot"></span></a>
+  <a href="../../Model1/MAT/mat 2.html"><span class="dot"></span></a>
+  <a href="../../Model1/MAT/mat 3.html"><span class="dot"></span></a>
+  <a href="try.html"><span class="dot"></span></a>
+  <a href="../../Home.html"><span class="dot"></span></a>
+</div>
 </footer>
 
-
 </body>
-</html>
+</html> 
