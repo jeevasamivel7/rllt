@@ -1,10 +1,10 @@
+
 <!DOCTYPE html>
 <html>
-<head>
 <title>PROVERBS</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="model.css">
-<script src="aud.js"></script>
+<link rel="stylesheet" href="../model.css">
+<script src="../aud.js"></script>
 <style>
   .player {
     width: 20px;
@@ -12,55 +12,47 @@
     background: url('ps.svg') no-repeat center center;
  }
 </style>
-<script>
-    
-window.onscroll = function() {myFunction()};
+</header>
 
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
 
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
 
-</script>
-</head>
+<div class="w3-container">
+        
 
 <body>
-    <audio id="myAudio">
-        <source src="../../Audios/pro/12 20Pro001.mp3" type="audio/mpeg">
-        <source src="../../Audios/pro/12 20Pro001.ogg" type="audio/ogg">
+
+  <audio id="myAudio">
+      <source src="../../Audios/pro/12 20Pro001.ogg" type="audio/ogg">
+      <source src="../../Audios/pro/12 20Pro001.mp3" type="audio/mpeg">
     </audio>
+
 
     <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Clients</a>
-      <a href="#">Contact</a>
+      <a href="#">Bread</a>
+      <a href="#">Tools</a>
+      <a href="#">Keys</a>
+      <a href="#">Resources</a>
     </div>
 <div class="header" id="myHeader">
 
-    <div class="scrollmenu">
+  <div class="scrollmenu">
       <div id="main">
           <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776;REAL LIFE LEADERSHIP TRAINING</span>
       </div>
-      <a class="btn" href="../../Home.html"><img src="prv.png" alt="prev" style="width:30px;height:25px;"></a>
-      <a class="btn" onclick="togglePlay()" src="../prev.gif" alt="pause" style="width:30px;height:25px;"></a>
-      <a class="btn" href="PSA\psa1.html"><img src="next.png" alt="next" style="width:30px;height:25px;"></a>
-      <a class="btn" onclick="zoomOut()()"><img src="dec.png" alt="dec" style="width:30px;height:25px;"></a>
-      <a class="btn" onclick="zoomIn()"><img src="inc.png" alt="inc" style="width:30px;height:25px;"></a>
+      <a class="btn" href="../../Home.html"><img src="../prv.png" alt="next" style="width:30px;height:25px;"></a>
+      <a class="btn" onclick="togglePlay()" src="../next.png" alt="pause" style="width:30px;height:25px;"></a>
+      <a class="btn" href="PSA/psa1.html"><img src="../next.png" alt="next" style="width:30px;height:25px;"></a>
+      <a class="btn" onclick="zoomOut()()"><img src="../dec.png" alt="pause" style="width:30px;height:25px;"></a>
+      <a class="btn" onclick="zoomIn()"><img src="../inc.png" alt="pause" style="width:30px;height:25px;"></a>
+  
+
     </div>
 
 </div>
 
-
 <div class="content">
-    
+
          
     <h2>Proverbs 1</h2>
 
@@ -150,21 +142,73 @@ function myFunction() {
     And the complacency of fools will destroy them;</p>
     <p><a href="https://biblehub.com/proverbs/1-33.htm">33</a>But whoever listens to me will dwell safely,
     And will be secure, without fear of evil.”</p>
+    
 </div>
 
+<script>
+window.onscroll = function() {myFunction()};
 
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+if (window.pageYOffset > sticky) {
+  header.classList.add("sticky");
+} else {
+  header.classList.remove("sticky");
+}
+}
+
+
+</script>
+
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "150px";
+  document.getElementById("main").style.marginLeft = "150px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+
+function togglePlay() {
+  var audio = document.getElementsByTagName("audio")[0];
+   
+  if (audio) {
+    if (audio.paused) {
+        audio.play();
+       document.getElementById("btn").src = "next.png";
+    } else {
+        audio.pause();
+        document.getElementById("btn").src ="next.png";
+    }
+  }
+}
+
+
+
+
+</script>
 
 <footer>
-  <div class="footer">
-  <a href="../../Home.html"><span class="dot"></span></a>
-  <a href="PSA\psa1.html"><span class="dot"></span></a>
-  <a href="../../Model1/MAT/mat 1.html"><span class="dot"></span></a>
-  <a href="../../Model1/MAT/mat 2.html"><span class="dot"></span></a>
-  <a href="../../Model1/MAT/mat 3.html"><span class="dot"></span></a>
-  <a href="try.html"><span class="dot"></span></a>
-  <a href="../../Home.html"><span class="dot"></span></a>
+    <div class="footer">
+        <a href="../../Home.html"><span class="dot"></span></a>
+        <a href="PSA\psa1.html"><span class="dot"></span></a>
+        <a href="../../Model1/MAT/mat 1.html"><span class="dot"></span></a>
+        <a href="../../Model1/MAT/mat 2.html"><span class="dot"></span></a>
+        <a href="../../Model1/MAT/mat 3.html"><span class="dot"></span></a>
+        <a href="../../Model1/MAT/mat 4.html"><span class="dot"></span></a>
+        <a href="../../Home.html"><span class="dot"></span></a>
 </div>
 </footer>
 
+
+
+</body>
+ 
 </body>
 </html> 
