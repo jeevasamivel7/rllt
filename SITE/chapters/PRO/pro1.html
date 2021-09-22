@@ -21,10 +21,6 @@
 
 <body>
 
-  <audio id="myAudio">
-      <source src="../../Audios/pro/12 20Pro001.ogg" type="audio/ogg">
-      <source src="../../Audios/pro/12 20Pro001.mp3" type="audio/mpeg">
-    </audio>
 
 
     <div id="mySidenav" class="sidenav">
@@ -41,7 +37,8 @@
           <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776;REAL LIFE LEADERSHIP TRAINING</span>
       </div>
       <a class="btn" href="../../Home.html"><img src="prv.png" alt="next" style="width:30px;height:25px;"></a>
-      <a class="btn" onclick="togglePlay()" src="next.png" alt="pause" style="width:30px;height:25px;"></a>
+      <audio id="myTune" src="../../Audios/pro/12 20Pro001.mp3"></audio>
+      <a class="btn" onclick="aud_play_pause()"><img src="ply.png" alt="pause" style="width:25px;height:25px;"></a>
       <a class="btn" href="PSA/psa1.html"><img src="next.png" alt="next" style="width:30px;height:25px;"></a>
       <a class="btn" onclick="zoomOut()"><img src="dec.png" alt="pause" style="width:30px;height:25px;"></a>
       <a class="btn" onclick="zoomIn()"><img src="inc.png" alt="pause" style="width:30px;height:25px;"></a>
@@ -175,17 +172,12 @@ function closeNav() {
   document.getElementById("main").style.marginLeft= "0";
 }
 
-function togglePlay() {
-  var audio = document.getElementsByTagName("audio")[0];
-   
-  if (audio) {
-    if (audio.paused) {
-        audio.play();
-       document.getElementById("btn").src = "next.png";
-    } else {
-        audio.pause();
-        document.getElementById("btn").src ="next.png";
-    }
+function aud_play_pause() {
+  var myAudio = document.getElementById("myTune");
+  if (myAudio.paused) {
+    myAudio.play();
+  } else {
+    myAudio.pause();
   }
 }
 

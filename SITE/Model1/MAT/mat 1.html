@@ -150,10 +150,7 @@ function zoomOut() {
 </head>
 <body>
 
-    <audio id="myAudio">
-        <source src="../../Audios/mat/MAT1.ogg" type="audio/ogg">
-        <source src="../../Audios/mat/MAT1.mp3" type="audio/mpeg">
-      </audio>
+
 
 
       <div id="mySidenav" class="sidenav">
@@ -169,11 +166,12 @@ function zoomOut() {
       <div id="main">
         <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776;REAL LIFE LEADERSHIP TRAINING</span>
     </div>
-    <a class="btn" href="../../chapters/PRO/PSA/psa1.html"><img src="../../chapters/PRO/prv.png" alt="next" style="width:30px;height:25px;"></a>
-    <a class="btn" onclick="togglePlay()" src="#" alt="pause" style="width:30px;height:25px;"></a>
-    <a class="btn" href="../../Model1/MAT/mat 2.html"><img src="../../chapters/PRO/next.png" alt="next" style="width:30px;height:25px;"></a>
-    <a class="btn" onclick="zoomOut()()"><img src="../../chapters/PRO/dec.png" alt="pause" style="width:30px;height:25px;"></a>
-    <a class="btn" onclick="zoomIn()"><img src="../../chapters/PRO/inc.png" alt="pause" style="width:30px;height:25px;"></a>
+    <a class="btn" href="../../chapters/PRO/PSA/psa1.html"><img src="../../chapters/PRO/prv.png" alt="next" style="width:25px;height:25px;"></a>
+    <audio id="myTune" src="../../Audios/mat/MAT1.mp3"></audio>
+      <a class="btn" onclick="aud_play_pause()"><img src="../../chapters/PRO/ply.png" alt="pause" style="width:25px;height:25px;"></a>  
+    <a class="btn" href="../../Model1/MAT/mat 2.html"><img src="../../chapters/PRO/next.png" alt="next" style="width:25px;height:25px;"></a>
+    <a class="btn" onclick="zoomOut()()"><img src="../../chapters/PRO/dec.png" alt="pause" style="width:25px;height:25px;"></a>
+    <a class="btn" onclick="zoomIn()"><img src="../../chapters/PRO/inc.png" alt="pause" style="width:25px;height:25px;"></a>
     </div>
 
 </div>
@@ -226,23 +224,15 @@ function myFunction() {
   }
 }
 
-function togglePlay() {
-  var audio = document.getElementsByTagName("audio")[0];
-   
-  if (audio) {
-    if (audio.paused) {
-        audio.play();
-       document.getElementById("btn").src = "next.png";
-    } else {
-        audio.pause();
-        document.getElementById("btn").src ="next.png";
-    }
+function aud_play_pause() {
+  var myAudio = document.getElementById("myTune");
+  if (myAudio.paused) {
+    myAudio.play();
+  } else {
+    myAudio.pause();
   }
 }
-
-
 </script>
-
 
   
   <script>
