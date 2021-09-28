@@ -136,3 +136,49 @@ float: none;
     div.scrollmenu a:hover {
       background-color: #777;
     }
+
+    .sidepanel1  {
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      height: 20px;
+      top: 50px;
+      right: 0;
+      background-color: transparent;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+    
+    .sidepanel1 a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color:transparent;
+      display: block;
+      transition: 0.3s;
+    }
+    
+    .sidepanel1 a:hover {
+      color: #f1f1f1;
+    }
+    
+    .sidepanel1 .closebtn1 {
+      position: absolute;
+      top: 0;
+      right: 20px;
+      font-size: 36px;
+    }
+    
+    .openbtn1 {
+      font-size: 20px;
+      cursor: pointer;
+      background-color: transparent;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+    }
+    
+    .openbtn1:hover {
+      background-color:#444;
+    }
