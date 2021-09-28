@@ -83,14 +83,6 @@
   }
   
 
-function aud_play_pause() {
-  var myAudio = document.getElementById("myTune");
-  if (myAudio.paused) {
-    myAudio.play();
-  } else {
-    myAudio.pause();
-  }
-}
 
   
   </script>
@@ -121,12 +113,12 @@ function aud_play_pause() {
   
   <footer>
     <div class="footer">
-    
-      <audio controls id="myTune" style="height: 11px;width: 110%;">
+      <div class="audiocenter">
+      <audio controls id="myTune" style="height: 11px;width: 80%;">
         <source src="../../Audios/mat/MAT3.mp3" type="audio/mpeg">
         <source src="../../Audios/mat/MAT3.ogg" type="audio/ogg">
-          </audio>  <br>
-          <a class="btn" href="../../Model1/MAT/mat 2.html"><img src="../../chapters/PRO/prv.png" alt="next" style="width:25px;height:20px;"></a>
+          </audio>  </div>
+          <a class="btn3" href="../../Model1/MAT/mat 2.html"><img src="../../chapters/PRO/prv.png" alt="next" style="width:25px;height:20px;"></a>
       <audio id="myTune" src="../../Audios/mat/MAT3.mp3"></audio>
       <a class="btn2" onclick="aud_play_pause()"><img src="../../chapters/PRO/ply.png" alt="next" style="width:30px;height:25px;"></a>
       <a class="btn1" href="../../../Model1/MAT/mat 3.html"><img src="../../chapters/PRO/next.png" alt="next" style="width:25px;height:20px;"></a>

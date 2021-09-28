@@ -34,19 +34,14 @@ function myFunction() {
 }
 
 
-function togglePlay() {
-  var audio = document.getElementsByTagName("audio")[0];
-   
-  if (audio) {
-    if (audio.paused) {
-        audio.play();
-       document.getElementById("btn").src = "pl.svg";
-    } else {
-        audio.pause();
-        document.getElementById("btn").src ="ps.svg";
-    }
+
+function aud_play_pause() {
+  var myAudio = document.getElementById("myTune");
+  if (myAudio.paused) {
+    myAudio.play();
+  } else {
+    myAudio.pause();
   }
 }
-
 
 

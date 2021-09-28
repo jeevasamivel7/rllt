@@ -36,10 +36,11 @@
       <div id="main">
           <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776;REAL LIFE LEADERSHIP TRAINING</span>
           <a class="btn" onclick="aud_play_pause()"><img src="../../../imgs/spk.png" alt="pause" style="width:25px;height:25px;"></a>
+          
           <div id="mySidepanel1" class="sidepanel1">
             <a href="javascript:void(0)" class="closebtn1" onclick="closeNav1()">×</a>
           
-            <a class="btn" onclick="zoomOut()()"><img src="dec.png" alt="pause" style="width:25px;height:25px;"></a>
+            <a class="btn" onclick="zoomOut()"><img src="dec.png" alt="pause" style="width:25px;height:25px;"></a>
             <a class="btn" onclick="zoomIn()"><img src="inc.png" alt="pause" style="width:25px;height:25px;"></a>
           
           
@@ -182,15 +183,6 @@ function closeNav() {
   document.getElementById("main").style.marginLeft= "0";
 }
 
-function aud_play_pause() {
-  var myAudio = document.getElementById("myTune");
-  if (myAudio.paused) {
-    myAudio.play();
-  } else {
-    myAudio.pause();
-  }
-}
-
 
 
 
@@ -208,12 +200,12 @@ function aud_play_pause() {
 
 <footer>
   <div class="footer">
-    <audio controls id="myTune" style="height: 11px;width: 110%;">
+    <div class="audiocenter"><audio controls id="myTune" style="height: 11px;width: 80%;">
       <source src="../../Audios/pro/12 20Pro001.mp3" type="audio/mpeg">
       <source src="../../Audios/pro/12 20Pro001.ogg" type="audio/ogg">
-        </audio>
-        <br>
-        <a class="btn" href="../../Home.html"><img src="prv.png" alt="next" style="width:25px;height:20px;"></a>
+        </audio></div>
+        <a class="btn3" href="../../Home.html"><img src="prv.png" alt="next" style="width:25px;height:20px;"
+      
     <audio id="myTune" src="../../Audios/pro/12 20Pro001.mp3"></audio>
     <a class="btn2" onclick="aud_play_pause()"><img src="ply.png" alt="next" style="width:30px;height:25px;"></a>
     <a class="btn1" href="PSA/psa1.html"><img src="next.png" alt="next" style="width:25px;height:20px;"></a>
