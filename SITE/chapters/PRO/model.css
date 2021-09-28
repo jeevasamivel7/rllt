@@ -166,8 +166,10 @@ float: none;
     .sidepanel1 .closebtn1 {
       position: absolute;
       top: 0;
+      height: 0.3cm;
+      width: 0.3cm;
       right: 10px;
-      font-size: 36px;
+      font-size: 24px;
     }
     
     .openbtn1 {
