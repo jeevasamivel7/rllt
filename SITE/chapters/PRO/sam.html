@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+      .hp_slide{
+    width:100%;
+    background:white;
+    height:25px;
+}
+.hp_range{
+    width:0;
+    background:black;
+    height:25px;
+}
+   </style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Audio Player</title>
+   
+</head>
+<body>
+   <div class="hp_slide">
+      <div class="hp_range"></div>
+<script>
+function moveplayhead(event)
+{
+    var newMargLeft = event.clientX - getPosition(timeline);
+    console.log(newMargLeft);
+    if (newMargLeft >= 0 && newMargLeft <= timelineWidth)
+    {
+        playhead.style.marginLeft = newMargLeft + "px";
+    }
+    if (newMargLeft < 0)
+    {
+        playhead.style.marginLeft = "0px";
+    }
+    if (newMargLeft > timelineWidth)
+    {
+        playhead.style.marginLeft = timelineWidth + "px";
+    }
+}</script>
+ </div>
+</body>
+</html>
