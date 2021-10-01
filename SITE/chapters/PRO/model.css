@@ -16,25 +16,24 @@ body {
 }
 
 .btn1 {
-  margin-top: 4px;
-  margin-right: 30px;
+  margin-top: 1px;
+  margin-right: 5px;
   background-color: transparent;
   float: right;
 }
 
 .btn3 {
   margin-top: 1px;
-  margin-left: 30px;
+  margin-right: 5px;
   background-color: transparent;
   float: left;
-  position: fixed;
 }
 .btn2 {
 margin-top: 1px;
 margin-left: 43%;
 background-color: transparent;
-float: none;
-position: fixed;
+
+
 
 
 }
