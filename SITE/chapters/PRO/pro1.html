@@ -42,7 +42,10 @@
           
             <a class="btn" onclick="zoomOut()"><img src="dec.png" alt="pause" style="width:25px;height:25px;"></a>
             <a class="btn" onclick="zoomIn()"><img src="inc.png" alt="pause" style="width:25px;height:25px;"></a>
-          
+            <div class="audiocenter"><audio controls id="myTune" style="height: 1.2cm;width: 80%;">
+              <source src="../../Audios/pro/12 20Pro001.mp3" type="audio/mpeg">
+              <source src="../../Audios/pro/12 20Pro001.ogg" type="audio/ogg">
+                </audio></div>
           
           </div>
           
@@ -190,7 +193,7 @@ function closeNav() {
 
 <script>
   function openNav1() {
-    document.getElementById("mySidepanel1").style.width = "150px";
+    document.getElementById("mySidepanel1").style.width = "350px";
   }
   
   function closeNav1() {
