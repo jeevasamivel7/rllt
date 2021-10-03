@@ -24,15 +24,19 @@
     <div class="scrollmenu">
       <div id="main">
         <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776;REAL LIFE LEADERSHIP TRAINING</span>
-      <a class="btn" onclick="aud_play_pause()"><img src="../../../imgs/spk.png" alt="pause" style="width:25px;height:25px;"></a>  
+      
+      <a class="btn3" href="../../chapters/PRO/PSA/psa1.html"><img src="../../../imgs/1.png" alt="next" style="width:25px;height:20px;"></a>
+      <a class="btn" onclick="aud_play_pause()"><img src="../../../imgs/play.png" alt="pause" style="width:25px;height:25px;"></a>
+      <a class="btn1" href="mat 2.html"><img src="../../../imgs/2.png" alt="next" style="width:25px;height:20px;"></a>
+  
       <div id="mySidepanel1" class="sidepanel1">
         <a href="javascript:void(0)" class="closebtn1" onclick="closeNav1()">×</a>
-    
-        <a class="btn" onclick="zoomOut()()"><img src="../../chapters/PRO/dec.png" alt="pause" style="width:25px;height:25px;"></a>
-        <a class="btn" onclick="zoomIn()"><img src="../../chapters/PRO/inc.png" alt="pause" style="width:25px;height:25px;"></a>
+
+        <a class="btn" onclick="zoomOut()()"><img src="../../../imgs/small.png" alt="pause" style="width:25px;height:25px;"></a>
+        <a class="btn" onclick="zoomIn()"><img src="../../../imgs/big.png" alt="pause" style="width:25px;height:25px;"></a>
       </div>
       
-      <button class="openbtn1" onclick="openNav1()"><img src="../../chapters/PRO/inc.png" alt="pause" style="width:30px;height:25px;"></button>  
+      <button class="openbtn1" onclick="openNav1()"><img src="../../../imgs/right.png" alt="pause" style="width:30px;height:25px;"></button>  
     
     
     
@@ -110,20 +114,19 @@ function myFunction() {
 <script>
   function openNav1() {
     document.getElementById("mySidepanel1").style.width = "150px";
+    document.getElementById("mySidepanel1").style.marginRight = "0px";
   }
   
   function closeNav1() {
     document.getElementById("mySidepanel1").style.width = "0";
+    document.getElementById("mySidepanel1").style.marginRight = "0px";
   }
   </script>
 
 <footer>
   <div class="footer">
   
-    <a class="btn3" href="../../chapters/PRO/PSA/psa1.html"><img src="../../chapters/PRO/prv.png" alt="next" style="width:25px;height:20px;"></a>
   
-    <a class="btn1" href="mat 2.html"><img src="../../chapters/PRO/next.png" alt="next" style="width:25px;height:20px;"></a>
-
   
     <div class="audiocenter"><audio controls id="myTune" style="height: 1.2cm;width: 80%;">
       <source src="../../Audios/mat/MAT1.mp3" type="audio/mpeg">

@@ -19,14 +19,14 @@ body {
   margin-top: 1px;
   margin-right: 5px;
   background-color: transparent;
-  float: right;
+  float: none;
 }
 
 .btn3 {
   margin-top: 1px;
   margin-right: 5px;
   background-color: transparent;
-  float: left;
+  float: none;
 }
 .btn2 {
 margin-top: 1px;
@@ -147,10 +147,10 @@ background-color: transparent;
       width: 0;
       position: fixed;
       z-index: 1;
-      height: 15px;
+      height: 100%;
       top: 0px;
       right: 0;
-      background-color: transparent;
+      background-color: #111;
       overflow-x: hidden;
       transition: 0.5s;
       padding-top: 60px;
@@ -161,7 +161,7 @@ background-color: transparent;
       padding: 8px 8px 8px 32px;
       text-decoration: none;
       font-size: 25px;
-      color:transparent;
+      color:#818181;
       display: block;
       transition: 0.3s;
     }
@@ -180,14 +180,16 @@ background-color: transparent;
     }
     
     .openbtn1 {
+      float: right;
       font-size: 20px;
       cursor: pointer;
       background-color: transparent;
       color: white;
+      right: 0;
       padding: 10px 15px;
       border: none;
     }
     
     .openbtn1:hover {
-      background-color:#444;
+      background-color:rgb(236, 223, 223);
     }
