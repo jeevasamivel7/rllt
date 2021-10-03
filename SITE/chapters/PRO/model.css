@@ -76,7 +76,7 @@ background-color: transparent;
       background-color: #111;
       overflow-x: hidden;
       transition: 0.5s;
-      padding-top: 50px;
+      padding-top: 30px;
     }
     
     .sidenav a {
@@ -107,8 +107,8 @@ background-color: transparent;
     }
     
     @media screen and (max-height: 450px) {
-      .sidenav {padding-top: 15px;}
-      .sidenav a {font-size: 18px;}
+      .sidenav {padding-top: 10px;}
+      .sidenav a {font-size: 17px;}
     }
    
     .footer {
@@ -180,7 +180,7 @@ background-color: transparent;
     }
     
     .openbtn1 {
-      float: right;
+      float: unset;
       font-size: 20px;
       cursor: pointer;
       background-color: transparent;
