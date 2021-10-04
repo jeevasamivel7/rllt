@@ -33,17 +33,33 @@ function myFunction() {
   }
 }
 
+function openNav1() {
+  document.getElementById("mySidepanel1").style.width = "150px";
+}
 
+function closeNav1() {
+  document.getElementById("mySidepanel1").style.width = "0";
+}
 
 function aud_play_pause() {
   var myAudio = document.getElementById("myTune");
   if (myAudio.paused) {
     myAudio.play();
-    
+
   } else {
     myAudio.pause();
   }
 }
+function openNav() {
+  document.getElementById("mySidenav").style.width = "150px";
+  document.getElementById("main").style.marginLeft = "150px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+
 
 
 

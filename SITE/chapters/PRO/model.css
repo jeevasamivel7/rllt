@@ -9,24 +9,25 @@ body {
   background: rgb(5, 215, 252);
   color: #f1f1f1;
 }
-.footer.btn {
-  margin-top: 4px;
-    margin-left: 100px;
+.btn {
+  margin-top: 1px;
+    margin-right:5px ;
     background-color: transparent;
+    float:right;
 }
 
 .btn1 {
   margin-top: 1px;
   margin-right: 5px;
   background-color: transparent;
-  float: none;
+  float: right;
 }
 
 .btn3 {
   margin-top: 1px;
   margin-right: 5px;
   background-color: transparent;
-  float: none;
+  float: right;
 }
 .btn2 {
 margin-top: 1px;
@@ -76,11 +77,11 @@ background-color: transparent;
       background-color: #111;
       overflow-x: hidden;
       transition: 0.5s;
-      padding-top: 30px;
+      padding-top: 20px;
     }
     
     .sidenav a {
-      padding: 8px 8px 8px 32px;
+      padding: 8px 8px 8px 25px;
       text-decoration: none;
       font-size: 25px;
       color: #818181;
@@ -127,6 +128,7 @@ background-color: transparent;
       background-color:rgb(5, 215, 252);
       overflow: auto;
       white-space: nowrap;
+      display: block;
     
     }
     
@@ -180,16 +182,18 @@ background-color: transparent;
     }
     
     .openbtn1 {
-      float: unset;
+      float: right;
       font-size: 20px;
       cursor: pointer;
       background-color: transparent;
       color: white;
       right: 0;
-      padding: 10px 15px;
+      padding: 10px 5px;
       border: none;
     }
     
     .openbtn1:hover {
       background-color:rgb(236, 223, 223);
     }
+
+
