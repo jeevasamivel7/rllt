@@ -15,14 +15,14 @@ body {
 }
 .btn {
   margin-top: 1px;
-    margin-right:5px ;
+    margin-right:3px ;
     background-color: transparent;
     float:right;
 }
 
 .btn1 {
   margin-top: 1px;
-  margin-right: 5px;
+  margin-right: 3px;
   background-color: transparent;
   float: right;
 
@@ -30,7 +30,7 @@ body {
 
 .btn3 {
   margin-top: 1px;
-  margin-right: 5px;
+  margin-right: 3px;
   background-color: transparent;
   float: right;
 
@@ -138,15 +138,16 @@ background-color: transparent;
       white-space: nowrap;
       display: block;
       font-family: Calibri;
+    
       
     }
     
     div.scrollmenu a {
-      object-position: center;
+    
       display:inline-block;
       color: rgba(255, 0, 0, 0.582);
       text-align: center;
-      padding: 8px;
+      padding: 6px;
       text-decoration: none;
     
     }

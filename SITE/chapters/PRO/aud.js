@@ -52,11 +52,13 @@ function aud_play_pause() {
 }
 function openNav() {
   document.getElementById("mySidenav").style.width = "150px";
+  document.getElementById("mySidenav").style.borderTopWidth = "10px";
   document.getElementById("main").style.marginLeft = "150px";
 }
 
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
+  
   document.getElementById("main").style.marginLeft= "0";
 }
 
