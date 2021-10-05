@@ -7,7 +7,7 @@ body {
 .header {
   padding: 6px 1px;
   background:   #adad85;
-  background-color:  #cdcdb1;
+  background-color:  #777777;
 }
 .btn {
   margin-top: 1px;
@@ -108,12 +108,12 @@ background-color: transparent;
     
     #main {
       transition: margin-left .5s;
-      padding: 16px;
+      padding: 13px;
     }
     
     @media screen and (max-height: 450px) {
-      .sidenav {padding-top: 10px;}
-      .sidenav a {font-size: 17px;}
+      .sidenav {padding-top: 8px;}
+      .sidenav a {font-size: 18px;}
     }
    
     .footer {
@@ -129,13 +129,12 @@ background-color: transparent;
 
 
     div.scrollmenu {
-      background-color:  #cdcdb1;
+      background-color:  #777777;
       overflow: auto;
       white-space: nowrap;
       display: block;
       font-family: Calibri;
       
-    
     }
     
     div.scrollmenu a {
@@ -195,7 +194,7 @@ background-color: transparent;
       background-color: transparent;
       color: white;
       right: 0;
-      padding: 10px 5px;
+      padding: 4px 4px;
       border: none;
     }
     
