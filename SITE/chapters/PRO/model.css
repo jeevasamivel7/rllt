@@ -7,7 +7,7 @@ body {
 .header {
   padding: 6px 1px;
   background:   #adad85;
-  background-color:  #adad85;
+  background-color:  #cdcdb1;
 }
 .btn {
   margin-top: 1px;
@@ -129,7 +129,7 @@ background-color: transparent;
 
 
     div.scrollmenu {
-      background-color:  #adad85;
+      background-color:  #cdcdb1;
       overflow: auto;
       white-space: nowrap;
       display: block;
