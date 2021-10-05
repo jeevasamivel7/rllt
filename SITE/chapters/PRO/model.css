@@ -5,9 +5,13 @@ body {
 
 
 .header {
+  
+  position: relative;
   padding: 6px 1px;
   background:   #adad85;
   background-color:  #777777;
+  
+  
 }
 .btn {
   margin-top: 1px;
