@@ -9,7 +9,7 @@ body {
   position: relative;
   padding: 6px 1px;
   background:   #adad85;
-  background-color:  #777777;
+  background-color:  #999999ec;
   
   
 }
@@ -133,7 +133,7 @@ background-color: transparent;
 
 
     div.scrollmenu {
-      background-color:  #777777;
+      background-color:  #999999ec;
       overflow: auto;
       white-space: nowrap;
       display: block;
