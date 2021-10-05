@@ -7,7 +7,7 @@ body {
 .header {
   padding: 6px 1px;
   background:   #adad85;
-  color: #f5f5f5;
+  background-color: #f1f1f1;
 }
 .btn {
   margin-top: 1px;
@@ -129,11 +129,11 @@ background-color: transparent;
 
 
     div.scrollmenu {
-      background-color: #adad85;
+      background-color: #f2f2f2;
       overflow: auto;
       white-space: nowrap;
       display: block;
-      font-family: Lucida Calligraphy;
+      font-family: Calibri;
       
     
     }
@@ -176,7 +176,7 @@ background-color: transparent;
     }
     
     .sidepanel1 a:hover {
-      color: #f1f1f1;
+      color: #f2f2f2;
     }
     
     .sidepanel1 .closebtn1 {
