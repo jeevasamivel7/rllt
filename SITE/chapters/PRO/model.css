@@ -112,9 +112,11 @@ background-color: transparent;
     
     #main {
       transition: margin-left .5s;
-      padding: 13px;
+      padding: 10px;
     }
-    
+    #main.a {
+    text-align: center;
+    }
     @media screen and (max-height: 450px) {
       .sidenav {padding-top: 8px;}
       .sidenav a {font-size: 18px;}
@@ -137,16 +139,17 @@ background-color: transparent;
       overflow: auto;
       white-space: nowrap;
       display: block;
-      font-family: Calibri;
-    
-      
+      font-family: Calibri;  
     }
     
+
+
     div.scrollmenu a {
     
-      display:inline-block;
-      color: rgba(255, 0, 0, 0.582);
+      display: inline-block;
+      color: rgb(0, 0, 0);
       text-align: center;
+  
       padding: 6px;
       text-decoration: none;
     
