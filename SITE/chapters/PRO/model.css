@@ -35,14 +35,25 @@ body {
   float: right;
 
 }
+
+.btn4 {
+  margin-top: 4px;
+  margin-right: 10px;
+  background-color: transparent;
+  float: right;
+}
+
+.btn5 {
+  margin-top: 4px;
+  margin-left: 10px;
+  background-color: transparent;
+  float: left;
+}
+
 .btn2 {
 margin-top: 4px;
 margin-left: 43%;
 background-color: transparent;
-
-
-
-
 }
 .header.btn1 {
     margin-top: 10%;
@@ -166,7 +177,7 @@ background-color: transparent;
       height: 100%;
       top: 0px;
       right: 0;
-      background-color: #111;
+      background-color: rgb(150, 139, 139);
       overflow-x: hidden;
       transition: 0.5s;
       padding-top: 60px;
@@ -211,4 +222,29 @@ background-color: transparent;
       background-color:rgb(236, 223, 223);
     }
 
+
+    div.scrollmenu1 {
+      background-color:  rgb(163, 163, 163);
+      overflow: auto;
+      white-space: nowrap;
+      display: block;
+      font-family: Calibri;  
+    }
+    
+
+
+    div.scrollmenu1 a {
+    
+      display: inline-block;
+      color: rgb(0, 0, 0);
+      text-align: center;
+  
+      padding: 6px;
+      text-decoration: none;
+    
+    }
+    
+    div.scrollmenu1 a:hover {
+      background-color: rgb(163, 163, 163);
+    }
 
