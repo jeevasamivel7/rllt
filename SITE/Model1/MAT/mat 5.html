@@ -1,13 +1,58 @@
-<DOCTYPE html>
+
+
+<!DOCTYPE html>
+<html>
 <head>
-<title>MATTHEW </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../chapters/PRO/model.css">
+  <script src="../../chapters/PRO/aud.js"></script>
+
+
 </head>
-<style>
-    .audio{
-   width: 60%;
-       }
-   </style>
 <body>
+
+
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Bread</a>
+      <a href="#">Tools</a>
+      <a href="#">Keys</a>
+      <a href="#">Resources</a>
+      </div>
+<div class="header" id="myHeader">
+
+    <div class="scrollmenu">
+    
+      <button class="openbtn1" onclick="openNav1()"><img src="../../../imgs/right.png" alt="pause" style="width:20px;height:25px;"></button> 
+    <a class="btn1" href="mat 2.html"><img src="../../../imgs/nxt.png" alt="next" style="width:23px;height:23px;"></a>
+  <a class="btn" onclick="aud_play_pause()"><img src="../../../imgs/play1.png" alt="pause" style="width: 25px;height:25px;"></a>
+  <a class="btn3" href="../../chapters/PRO/PSA/psa1.html"><img src="../../../imgs/pre.png" alt="next" style="width:23px;height:23px;"></a>
+    
+      <div id="main">
+      
+      <div id="mySidepanel1" class="sidepanel1">
+        <a href="javascript:void(0)" class="closebtn1" onclick="closeNav1()">×</a>
+
+        <a class="btn" onclick="zoomOut()()"><img src="../../../imgs/small.png" alt="pause" style="width:25px;height:25px;"></a>
+        <a class="btn" onclick="zoomIn()"><img src="../../../imgs/big.png" alt="pause" style="width:25px;height:25px;"></a>
+      </div>
+      <span style="font-size:12px;cursor:pointer" onclick="openNav()">&#9776;  REAL LIFE LEADERSHIP TRAINING</span>
+    
+    
+    </div>
+      
+    </div>
+      <div class="scrollmenu1">
+      
+      <a class="btn4" href="#"><img src="../../../imgs/pen.png" alt="next" style="width:23px;height:23px;"></a>
+
+      <a class="btn5" href="#"><img src="../../../imgs/cal.png" alt="next" style="width:23px;height:23px;"></a>
+      </div>  
+</div>
+</body>
+</header>
+<body>
+<div class="content">
 <h2>Matthew 5  </h2>
 
 <h4> The Beatitudes  </h4>
@@ -68,20 +113,44 @@
  <a href="https://biblehub.com/matthew/5-46.htm">46</a><a style="color:  #770000;">For if you love those who love you, what reward have you? Do not even the tax collectors do the same?</a>
  <a href="https://biblehub.com/matthew/5-47.htm">47</a><a style="color:  #770000;">And if you greet your brethren only, what do you do more than others? Do not even the tax collectors do so?</a>
  <a href="https://biblehub.com/matthew/5-48.htm">48</a><a style="color:  #770000;">Therefore you shall be perfect, just as your Father in heaven is perfect.</a></p>
+</div>
 
- <footer>
+<script>
+window.onscroll = function() {myFunction()};
 
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
 
-    <audio controls class="audio">
-      <source src="../../Audios/mat/MAT5.mp3" type="audio/mpeg">
-      <source src="../../Audios/mat/MAT5.ogg" type="audio/ogg">
-        </audio>
- <br>
- 
- <a href="mat 4.html"><img src="../../../prev.gif" alt="PREVIOUS" style="width:44px;height:42px;"></a>
-  <a href="../../Home.html"><img src="../../../next.gif" alt="NEXT" style="width:44px;height:42px;"></a>
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
 
+</script>
 
   
-            </footer>
+
+
+<footer>
+  <div class="footer">
+  
+  
+  
+    <div class="audiocenter"><audio controls id="myTune" style="height: 1.2cm;width: 80%;">
+      <source src="../../Audios/mat/MAT1.mp3" type="audio/mpeg">
+      <source src="../../Audios/mat/MAT1.ogg" type="audio/ogg">
+        </audio>
+        </div>
+  
+  </div>
+</footer>
+
+
+
+</body>
 </html>
+
+ 
