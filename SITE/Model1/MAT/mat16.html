@@ -1,14 +1,58 @@
-<DOCTYPE html>
 
+
+<!DOCTYPE html>
 <html>
 <head>
-  <style>
-    .audio{
-   width: 60%;
-       }
-   </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../chapters/PRO/model.css">
+  <script src="../../chapters/PRO/aud.js"></script>
+
+
 </head>
 <body>
+
+
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Bread</a>
+      <a href="#">Tools</a>
+      <a href="#">Keys</a>
+      <a href="#">Resources</a>
+      </div>
+<div class="header" id="myHeader">
+
+    <div class="scrollmenu">
+    
+      <button class="openbtn1" onclick="openNav1()"><img src="../../../imgs/right.png" alt="pause" style="width:20px;height:25px;"></button> 
+    <a class="btn1" href="../../HOME.html"><img src="../../../imgs/nxt.png" alt="next" style="width:23px;height:23px;"></a>
+  <a class="btn" onclick="aud_play_pause()"><img src="../../../imgs/play1.png" alt="pause" style="width: 25px;height:25px;"></a>
+  <a class="btn3" href="mat15.html"><img src="../../../imgs/pre.png" alt="next" style="width:23px;height:23px;"></a>
+    
+      <div id="main">
+      
+      <div id="mySidepanel1" class="sidepanel1">
+        <a href="javascript:void(0)" class="closebtn1" onclick="closeNav1()">×</a>
+
+        <a class="btn" onclick="zoomOut()()"><img src="../../../imgs/small.png" alt="pause" style="width:25px;height:25px;"></a>
+        <a class="btn" onclick="zoomIn()"><img src="../../../imgs/big.png" alt="pause" style="width:25px;height:25px;"></a>
+      </div>
+      <span style="font-size:12px;cursor:pointer" onclick="openNav()">&#9776;  REAL LIFE LEADERSHIP TRAINING</span>
+    
+    
+    </div>
+      
+    </div>
+      <div class="scrollmenu1">
+      
+      <a class="btn4" href="#"><img src="../../../imgs/pen.png" alt="next" style="width:23px;height:23px;"></a>
+
+      <a class="btn5" href="#"><img src="../../../imgs/cal.png" alt="next" style="width:23px;height:23px;"></a>
+      </div>  
+</div>
+</body>
+</header>
+<body>
+<div class="content">
 
 
 <h2>  Matthew 16</h2>
@@ -47,21 +91,43 @@
  <a href="https://biblehub.com/matthew/16-26.htm">26</a><a style="color: #770000;">For what profit is it to a man if he gains the whole world, and loses his own soul? Or what will a man give in exchange for his soul?</a> 
  <a href="https://biblehub.com/matthew/16-27.htm">27</a><a style="color: #770000;">For the Son of Man will come in the glory of His Father with His angels, and then He will reward each according to his works.</a>
  <a href="https://biblehub.com/matthew/16-28.htm">28</a><a style="color: #770000;">Assuredly, I say to you, there are some standing here who shall not taste death till they see the Son of Man coming in His kingdom."</a></p>
+</div>
 
- <footer>
+<script>
+window.onscroll = function() {myFunction()};
 
-    <audio controls class="audio">
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+
+</script>
+
+  
+
+
+<footer>
+  <div class="footer">
+  
+  
+  
+    <div class="audiocenter"><audio controls id="myTune" style="height: 1.2cm;width: 80%;">
       <source src="../../Audios/mat/MAT16.mp3" type="audio/mpeg">
       <source src="../../Audios/mat/MAT16.ogg" type="audio/ogg">
         </audio>
+        </div>
+  
+  </div>
+</footer>
 
- <br>
- 
- <a href="../../chapters/PRO/PSA/psa 8.html"><img src="../../../prev.gif" alt="PREVIOUS" style="width:44px;height:42px;"></a>
-  <a href="mat17.html"><img src="../../../next.gif" alt="NEXT" style="width:44px;height:42px;"></a>
 
-
-     </footer>
 
 </body>
 </html>
+
