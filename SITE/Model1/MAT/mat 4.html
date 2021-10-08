@@ -1,195 +1,38 @@
+      </div>
+<div class="header" id="myHeader">
 
-<DOCTYPE html>
-  <head>
-  <title>MATTHEW </title>
-  </head>
-  <style>
-    .audio{
-   width: 60%;
-       }
-   </style>
-  <body>
-  
-  <!DOCTYPE html>
-  <html>
-  <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-  body {
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
-  
-  .header {
-    padding: 6px 1px;
-    background: rgb(5, 215, 252);
-    color: #f1f1f1;
-  }
-  .btn {
-      margin-top: 1%;
-      margin-left: 20px;
-      background-color: transparent;
-      float: left;
-      
-      
-  }
-  
-  .header.btn1 {
-      margin-top: 10%;
-      margin-right: 3%;
-      background-color: transparent;
-      float: right;
-  }
-  
-  .content {
-    padding: 16px;
-  }
-  
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-  .sticky + .content {
-    padding-top: 102px;
-  }
-  </style>
-  <style>
+    <div class="scrollmenu">
     
-      .dot {
-    height: 10px;
-    width: 10px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-  }
-      .sidenav {
-        height: 100%;
-        width: 0;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: #111;
-        overflow-x: hidden;
-        transition: 0.5s;
-        padding-top: 60px;
-      }
+      <button class="openbtn1" onclick="openNav1()"><img src="../../../imgs/right.png" alt="pause" style="width:20px;height:25px;"></button> 
+    <a class="btn1" href="../../../HOME.html"><img src="../../../imgs/nxt.png" alt="next" style="width:23px;height:23px;"></a>
+  <a class="btn" onclick="aud_play_pause()"><img src="../../../imgs/play1.png" alt="pause" style="width: 25px;height:25px;"></a>
+  <a class="btn3" href="mat3.html"><img src="../../../imgs/pre.png" alt="next" style="width:23px;height:23px;"></a>
+    
+      <div id="main">
       
-      .sidenav a {
-        padding: 8px 8px 8px 32px;
-        text-decoration: none;
-        font-size: 25px;
-        color: #818181;
-        display: block;
-        transition: 0.3s;
-      }
-      
-      .sidenav a:hover {
-        color: #f1f1f1;
-      }
-      
-      .sidenav .closebtn {
-        position: absolute;
-        top: 0;
-        right: 25px;
-        font-size: 36px;
-        margin-left: 50px;
-      }
-      
-      #main {
-        transition: margin-left .5s;
-        padding: 16px;
-      }
-      
-      @media screen and (max-height: 450px) {
-        .sidenav {padding-top: 15px;}
-        .sidenav a {font-size: 18px;}
-      }
-      </style>
-  
-  <style>
-      .footer {
-         position: fixed;
-         left: 0;
-         bottom: 0;
-         height: 0.5cm;
-         width: 100%;
-         background-color: white;
-         color: white;
-         text-align: center;
-      }
-      </style>
-  
-  <style>
-      div.scrollmenu {
-        background-color:rgb(5, 215, 252);
-        overflow: auto;
-        white-space: nowrap;
-      
-      }
-      
-      div.scrollmenu a {
-        display:inline-block;
-        color: white;
-        text-align: center;
-        padding: 8px;
-        text-decoration: none;
-      
-      }
-      
-      div.scrollmenu a:hover {
-        background-color: #777;
-      }
-      </style>
-  <script>
-      var fontSize = 1;
-  function zoomIn() {
-    fontSize += 0.1;
-    document.body.style.fontSize = fontSize + "em";
-  }
-  function zoomOut() {
-    fontSize -= 0.1;
-    document.body.style.fontSize = fontSize + "em";
-  }
-  </script>
-  
-  
-  </head>
-  <body>
-  
-      <audio id="myAudio">
-          <source src="../../Audios/mat/MAT4.ogg" type="audio/ogg">
-          <source src="../../Audios/mat/MAT4.mp3" type="audio/mpeg">
-        </audio>
-  
-  
-        <div id="mySidenav" class="sidenav">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <a href="#">Bread</a>
-        <a href="#">Tools</a>
-        <a href="#">Keys</a>
-        <a href="#">Resources</a>
-        </div>
-  <div class="header" id="myHeader">
-  
-      <div class="scrollmenu">
-        <div id="main">
-          <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776;REAL LIFE LEADERSHIP TRAINING</span>
+      <div id="mySidepanel1" class="sidepanel1">
+        <a href="javascript:void(0)" class="closebtn1" onclick="closeNav1()">×</a>
+
+        <a class="btn" onclick="zoomOut()()"><img src="../../../imgs/small.png" alt="pause" style="width:25px;height:25px;"></a>
+        <a class="btn" onclick="zoomIn()"><img src="../../../imgs/big.png" alt="pause" style="width:25px;height:25px;"></a>
       </div>
-      <a class="btn" href="../../Model1/MAT/mat 3.html"><img src="../../chapters/PRO/prv.png" alt="next" style="width:25px;height:25px;"></a>
-      <audio id="myTune" src="../../Audios/mat/MAT4.mp3"></audio>
-      <a class="btn" onclick="aud_play_pause()"><img src="../../chapters/PRO/ply.png" alt="pause" style="width:25px;height:25px;"></a> 
-      <a class="btn" href="../../Home.html"><img src="../../chapters/PRO/next.png" alt="next" style="width:25px;height:25px;"></a>
-      <a class="btn" onclick="zoomOut()()"><img src="../../chapters/PRO/dec.png" alt="pause" style="width:25px;height:25px;"></a>
-      <a class="btn" onclick="zoomIn()"><img src="../../chapters/PRO/inc.png" alt="pause" style="width:25px;height:25px;"></a>
-      </div>
-  
-  </div>
-  
-  <div class="content">
+      <span style="font-size:12px;cursor:pointer" onclick="openNav()">&#9776;  REAL LIFE LEADERSHIP TRAINING</span>
+    
+    
+    </div>
+      
+    </div>
+      <div class="scrollmenu1">
+      
+      <a class="btn4" href="#"><img src="../../../imgs/pen.png" alt="next" style="width:23px;height:23px;"></a>
+
+      <a class="btn5" href="#"><img src="../../../imgs/cal.png" alt="next" style="width:23px;height:23px;"></a>
+      </div>  
+</div>
+</body>
+</header>
+<body>
+<div class="content">
     <h2>Matthew 4 </h2>
 
     <h4> Satan Tempts Jesus  </h4>
@@ -225,61 +68,41 @@
       
     
   </div>
-  
-  <script>
-  window.onscroll = function() {myFunction()};
-  
-  var header = document.getElementById("myHeader");
-  var sticky = header.offsetTop;
-  
-  function myFunction() {
-    if (window.pageYOffset > sticky) {
-      header.classList.add("sticky");
-    } else {
-      header.classList.remove("sticky");
-    }
-  }
-  
 
-function aud_play_pause() {
-  var myAudio = document.getElementById("myTune");
-  if (myAudio.paused) {
-    myAudio.play();
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
   } else {
-    myAudio.pause();
+    header.classList.remove("sticky");
   }
 }
 
-  </script>
+</script>
+
+  
+
+
+<footer>
+  <div class="footer">
   
   
-    
-    <script>
-    function openNav() {
-      document.getElementById("mySidenav").style.width = "150px";
-      document.getElementById("main").style.marginLeft = "150px";
-    }
-    
-    function closeNav() {
-      document.getElementById("mySidenav").style.width = "0";
-      document.getElementById("main").style.marginLeft= "0";
-    }
-    </script>
   
-  <footer>
-      <div class="footer">
-        <a href="../../Home.html"><span class="dot"></span></a>
-        <a href="PSA\psa1.html"><span class="dot"></span></a>
-        <a href="../../Model1/MAT/mat 1.html"><span class="dot"></span></a>
-        <a href="../../Model1/MAT/mat 2.html"><span class="dot"></span></a>
-        <a href="../../Model1/MAT/mat 3.html"><span class="dot"></span></a>
-        <a href="../../Model1/MAT/mat 4.html"><span class="dot"></span></a>
-        <a href="../../Home.html"><span class="dot"></span></a>
+    <div class="audiocenter"><audio controls id="myTune" style="height: 1.2cm;width: 80%;">
+      <source src="../../Audios/mat/MAT4.mp3" type="audio/mpeg">
+      <source src="../../Audios/mat/MAT4.ogg" type="audio/ogg">
+        </audio>
+        </div>
+  
   </div>
-  </footer>
-  
-  
-  
-  </body>
-  </html>
-  
+</footer>
+
+
+
+</body>
+</html>
