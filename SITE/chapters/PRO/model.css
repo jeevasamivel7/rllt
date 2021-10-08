@@ -93,7 +93,7 @@ background-color: transparent;
       z-index: 1;
       top: 0;
       left: 0;
-      background-color: #111;
+      background-color: #818181;
       overflow-x: hidden;
       transition: 0.5s;
       padding-top: 20px;
@@ -103,7 +103,7 @@ background-color: transparent;
       padding: 8px 8px 8px 25px;
       text-decoration: none;
       font-size: 25px;
-      color: #818181;
+      color: black;
       display: block;
       transition: 0.3s;
   
@@ -177,7 +177,7 @@ background-color: transparent;
       height: 100%;
       top: 0px;
       right: 0;
-      background-color: rgb(150, 139, 139);
+      background-color:  #818181;
       overflow-x: hidden;
       transition: 0.5s;
       padding-top: 60px;
@@ -238,8 +238,7 @@ background-color: transparent;
       display: inline-block;
       color: rgb(0, 0, 0);
       text-align: center;
-  
-      padding: 6px;
+      padding: 1px;
       text-decoration: none;
     
     }
