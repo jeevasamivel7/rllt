@@ -1,15 +1,58 @@
-<DOCTYPE html>
 
+
+<!DOCTYPE html>
 <html>
 <head>
-  <style>
-    .audio{
-   width: 60%;
-       }
-   </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../chapters/PRO/model.css">
+  <script src="../../chapters/PRO/aud.js"></script>
+
+
 </head>
 <body>
 
+
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Bread</a>
+      <a href="#">Tools</a>
+      <a href="#">Keys</a>
+      <a href="#">Resources</a>
+      </div>
+<div class="header" id="myHeader">
+
+    <div class="scrollmenu">
+    
+      <button class="openbtn1" onclick="openNav1()"><img src="../../../imgs/right.png" alt="pause" style="width:20px;height:25px;"></button> 
+    <a class="btn1" href="mat 2.html"><img src="../../../imgs/nxt.png" alt="next" style="width:23px;height:23px;"></a>
+  <a class="btn" onclick="aud_play_pause()"><img src="../../../imgs/play1.png" alt="pause" style="width: 25px;height:25px;"></a>
+  <a class="btn3" href="../../chapters/PRO/PSA/psa 5.html"><img src="../../../imgs/pre.png" alt="next" style="width:23px;height:23px;"></a>
+    
+      <div id="main">
+      
+      <div id="mySidepanel1" class="sidepanel1">
+        <a href="javascript:void(0)" class="closebtn1" onclick="closeNav1()">×</a>
+
+        <a class="btn" onclick="zoomOut()()"><img src="../../../imgs/small.png" alt="pause" style="width:25px;height:25px;"></a>
+        <a class="btn" onclick="zoomIn()"><img src="../../../imgs/big.png" alt="pause" style="width:25px;height:25px;"></a>
+      </div>
+      <span style="font-size:12px;cursor:pointer" onclick="openNav()">&#9776;  REAL LIFE LEADERSHIP TRAINING</span>
+    
+    
+    </div>
+      
+    </div>
+      <div class="scrollmenu1">
+      
+      <a class="btn4" href="#"><img src="../../../imgs/pen.png" alt="next" style="width:23px;height:23px;"></a>
+
+      <a class="btn5" href="#"><img src="../../../imgs/cal.png" alt="next" style="width:23px;height:23px;"></a>
+      </div>  
+</div>
+</body>
+</header>
+<body>
+<div class="content">
 
 <h2> Matthew 9 </h2>
 
@@ -62,19 +105,42 @@
  <a href="https://biblehub.com/matthew/9-38.htm">38</a><a style="color: #770000;">Therefore pray the Lord of the harvest to send out laborers into His harvest."</a></p>
 
 
- <footer>
- 
- 
-    <audio controls class="audio">
-      <source src="../../Audios/mat/MAT9.mp3" type="audio/mpeg">
-      <source src="../../Audios/mat/MAT9.ogg" type="audio/ogg">
-        </audio>>
- <br>
- 
- <a href="../../chapters/PRO/PSA/psa 5.html"><img src="../../../prev.gif" alt="PREVIOUS" style="width:44px;height:42px;"></a>
-  <a href="mat10.html"><img src="../../../next.gif" alt="NEXT" style="width:44px;height:42px;"></a>
+</div>
 
- 
-            </footer>
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+
+</script>
+
+  
+
+
+<footer>
+  <div class="footer">
+  
+  
+  
+    <div class="audiocenter"><audio controls id="myTune" style="height: 1.2cm;width: 80%;">
+      <source src="../../Audios/mat/MAT1.mp3" type="audio/mpeg">
+      <source src="../../Audios/mat/MAT1.ogg" type="audio/ogg">
+        </audio>
+        </div>
+  
+  </div>
+</footer>
+
+
+
 </body>
 </html>
