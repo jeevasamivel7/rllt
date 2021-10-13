@@ -1,0 +1,249 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.header {
+  
+  position: relative;
+  padding: 6px 1px;
+  background:   #adad85;
+  background-color:  #999999ec;
+  
+  
+}
+.btn {
+  margin-top: 3px;
+    margin-right:3px ; 
+    background-color: transparent;
+    float:right;
+}
+
+.btn1 {
+  margin-top: 4px;
+  margin-right: 3px;
+  background-color: transparent;
+  float: right;
+
+}
+
+.btn3 {
+  margin-top: 4px;
+  margin-right: 3px;
+  background-color: transparent;
+  float: right;
+
+}
+
+.btn4 {
+  margin-top: 4px;
+  margin-right: 10px;
+  background-color: transparent;
+  float: right;
+}
+
+.btn5 {
+  margin-top: 4px;
+  margin-left: 10px;
+  background-color: transparent;
+  float: left;
+}
+
+.btn2 {
+margin-top: 4px;
+margin-left: 43%;
+background-color: transparent;
+}
+.header.btn1 {
+    margin-top: 10%;
+    margin-right: 3%;
+    background-color: transparent;
+    float: right;
+}
+
+.content {
+  padding: 5px;
+
+  
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.audiocenter{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #c40d0d !important;
+  }
+
+
+   .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #818181;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 20px;
+    }
+    
+    .sidenav a {
+      padding: 8px 8px 8px 25px;
+      text-decoration: none;
+      font-size: 25px;
+      color: black;
+      display: block;
+      transition: 0.3s;
+  
+    }
+    
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
+    
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    
+    #main {
+      transition: margin-left .5s;
+      padding: 10px;
+    }
+    #main.a {
+    text-align: center;
+    }
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 8px;}
+      .sidenav a {font-size: 18px;}
+    }
+   
+    .footer {
+       position: fixed;
+       left: 0;
+       bottom: 0;
+       height:1.3cm;
+       width: 100%;
+      background-color: #f1f1f1;
+      }
+
+ 
+
+
+    div.scrollmenu {
+      background-color:  #999999ec;
+      overflow: auto;
+      white-space: nowrap;
+      display: block;
+      font-family: Calibri;  
+    }
+    
+
+
+    div.scrollmenu a {
+    
+      display: inline-block;
+      color: rgb(0, 0, 0);
+      text-align: center;
+  
+      padding: 6px;
+      text-decoration: none;
+    
+    }
+    
+    div.scrollmenu a:hover {
+      background-color: #777;
+    }
+
+    .sidepanel1  {
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      height: 100%;
+      top: 0px;
+      right: 0;
+      background-color:  #818181;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    
+    }
+    
+    .sidepanel1 a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color:#818181;
+      display: block;
+      transition: 0.3s;
+    }
+    
+    .sidepanel1 a:hover {
+      color: #f2f2f2;
+    }
+    
+    .sidepanel1 .closebtn1 {
+      position: absolute;
+      top: 0;
+      height: 0.3cm;
+      width: 0.3cm;
+      right: 10px;
+      font-size: 24px;
+    }
+    
+    .openbtn1 {
+      float: right;
+      font-size: 15px;
+      cursor: pointer;
+      background-color: transparent;
+      color: white;
+      right: 0;
+      margin-top: 6px;
+      padding: 4px 4px;
+      border: none;
+    }
+    
+    .openbtn1:hover {
+      background-color:rgb(236, 223, 223);
+    }
+
+
+    div.scrollmenu1 {
+      background-color:  rgb(163, 163, 163);
+      overflow: auto;
+      white-space: nowrap;
+      display: block;
+      font-family: Calibri;  
+    }
+    
+
+
+    div.scrollmenu1 a {
+    
+      display: inline-block;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      padding: 1px;
+      text-decoration: none;
+    
+    }
+    
+    div.scrollmenu1 a:hover {
+      background-color: rgb(163, 163, 163);
+    }
+
